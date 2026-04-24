@@ -1,0 +1,4 @@
+layout {
+    pane size="70%" borderless=true name="claude"
+    pane size="30%" name="shell"
+}
