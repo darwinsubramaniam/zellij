@@ -181,7 +181,7 @@ keybinds clear-defaults=true {
     shared_except "normal" "locked" "entersearch" {
         bind "enter" { SwitchToMode "normal"; }
     }
-    shared_except "normal" "locked" "entersearch" "renametab" "renamepane" {
+    shared_except "normal" "locked" "entersearch" "renametab" "renamepane" "pane" {
         bind "esc" { SwitchToMode "normal"; }
     }
     shared_among "pane" "tmux" {
