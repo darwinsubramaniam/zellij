@@ -23,7 +23,7 @@ keybinds clear-defaults=true {
         bind "s" { NewPane "stacked"; SwitchToMode "normal"; }
         bind "w" { ToggleFloatingPanes; SwitchToMode "normal"; }
         bind "z" { TogglePaneFrames; SwitchToMode "normal"; }
-        bind "Ctrl l" { SwitchToMode "locked"; }
+        bind "Ctrl g" { SwitchToMode "locked"; }
     }
     tab {
         bind "left" { GoToPreviousTab; }
